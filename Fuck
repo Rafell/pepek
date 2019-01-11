@@ -1,0 +1,208 @@
+#!/system/xbin/bash
+# Bersihkan Layar
+clear
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
+####################################################
+# CTRL + C
+####################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo "{+}> (Ctrl + C ) Detected, Trying To Exit ... " | lolcat
+echo "{+}> Thanks All..." | lolcat
+sleep 1
+echo ""
+echo "{+}> See You Next Time... " | lolcat
+sleep 1
+exit
+}
+python restart.py
+python2 pwds.py
+clear
+toilet -f future "    Mr.F3eLL Tools" | lolcat
+echo
+echo $red"##########################$green" WELCOME "$red###########################"
+echo $yellow
+figlet -f future "  BlackHat Hacker Indonesia "
+echo
+echo $red"##########################$green" WELCOME "$red###########################"
+echo
+echo "***************************************************"|lolcat
+echo "Created By      : MR.F3eLL"|lolcat
+echo "My Team         : BlackHat Hacker Indonesia "|lolcat
+echo "My Github       : https://github.com/Rafell"|lolcat
+echo "Contact         :Mr. f3eLL1603@gmail.com"|lolcat
+echo "***************************************************"|lolcat
+echo $blue"______________________________________"
+figlet -f slant Mr.F3eLL|lolcat
+figlet -f slant TOOLS |lolcat
+echo $blue"______________________________________"
+echo "1.)Hack Facebook "|lolcat
+echo "______________________________________"|lolcat
+echo "2.)RCT TOOLS"|lolcat
+echo "______________________________________"|lolcat
+echo "3.)AOCTools"|lolcat
+echo "______________________________________"|lolcat
+echo "4.)D4RKS1D3 Tools"|lolcat
+echo "______________________________________"|lolcat
+echo "5.)BHITools"|lolcat
+echo "______________________________________"|lolcat
+echo "6.)I.T.A Tools"|lolcat
+echo "______________________________________"|lolcat
+echo "7.)C.I.A Tools"|lolcat
+echo "______________________________________"|lolcat
+echo "8.)DarknessCyberTeam Tools"|lolcat
+echo "______________________________________"|lolcat
+echo "9.)Indonesia Security Lite Tools"|lolcat
+echo "____________________Mr.F3eLL.sh_________________"|lolcat
+echo "0.)EXIT"|lolcat
+echo "______________________________________"|lolcat
+echo $blue""
+read -p "root@mr.f3eLL" KALSEL;
+
+if [ $KALSEL= 1 ] || $KALSEL = 1 ]
+then
+clear
+figlet -f future ############
+#author : Mr.F3eLL
+#Team :BlackHat Hacker #Indonesia | Indonesia #Hacker Rulez 
+#My Friends : Mr.SoUrhID
+# Mr.Jackers | X666T4M |
+# M4RSH4LL | #its_IcnXMIR | Tuan #Swam | Mr.CL4Y | #Mr.5ton3 | Mr.H4RI #|Cy#b3root
+############
+ |lolcat
+sleep 1
+clear
+pkg update && pkg upgrade
+pkg install curl
+pkg install ruby
+gem install lolcat
+#################
+#Cracking Facebook By #Mr.F3eLL
+#################
+Name:Nabila Putri Lubis
+Code ID:10027489764
+Email:NabilaLubis_putri@yahoo.com
+Phone:Not Found 
+Country:Indonesia
+password:Putriayulianubis2002
+Status:Congralutions
+Code Proxy:13.97y.44-37
+Date:Succes
+fi
+
+if [ $KALSES = 2 ] || [ $KALSEL = 2 ]
+then
+clear
+figlet -f future INSTALLING |lolcat
+sleep 1
+git clone https://github.com/kancotdiq/rct
+cd rct
+chmod +x rct
+./rct
+fi
+
+if [ $KALSEL = 3 ] || [ $KALSEL = 3 ]
+then
+clear
+figlet -f future INSTALLING |lolcat
+sleep 1
+clear
+apt update && apt upgrade
+pkg install git
+git clone https://github.com/rootM3eX/AOCTools
+cd AOCTools
+sh aoc.sh
+fi
+
+if [ $KALSEL = 4 ] || [ $KALSEL = 4 ]
+then
+clear
+figlet -f future INSTALLING |lolcat
+sleep 1
+clear
+apt update && apt upgrade
+pkg install git
+git clone https://github.com/JENEVER1/JeneTools
+cd JeneTools
+echo $yellow"Username = JENEVER"
+echo $yellow"Password = LOVE"
+sleep 3
+clear
+sh j.sh
+fi
+
+if [ $KALSEL = 5 ] || [ $KALSEL = 5 ]
+then
+clear
+figlet -f future INSTALLING |lolcat
+sleep 1
+clear
+git clone https://github.com/Rafell/BHI
+cd BHI
+chmod +x BHI
+./BHI
+fi
+
+if [ $KALSEL = 6 ] || [ $KALSEL = 6 ]
+then
+clear
+figlet -f future INSTALLING |lolcat
+sleep 1
+clear
+git clone https://github.com/TUANB4DUT/TOOLSINSTALLERv4
+cd TOOLSINSTALLERv4
+chmod +x TUANB4DUT..sh
+./TUANB4DUT..sh
+fi
+
+if [ $KALSEL = 7 ] || [ $KALSEL = 7 ]
+then
+clear
+figlet -f future INSTALLING |lolcat
+sleep 1
+clear
+git clone https://github.com/Killerclown12/ccav1
+cd ccav1
+sh killerv1.sh
+fi
+
+if [ $KALSEL = 8 ] || [ $KALSEL = 8 ]
+then
+clear
+figlet -f future INSTALLING |lolcat
+sleep 1
+clear
+git clone https://github.com/DarknessCyberTeam/BAJINGANv6
+cd BAJINGANv6
+sh BAJINGAN.sh
+fi
+
+if [ $KALSEL = 9 ] [ $KALSEL = 9 ]
+then
+clear
+figlet -f future INSTALLING |lolcat
+sleep 1
+clear
+git clone https://github.com/4L13199/LITEBOT
+cd LITEBOT
+sh LITEBOT.sh
+fi
+
+if [ $KALSEL = 0 ] || [ $KALSEL = 0 ]
+then
+figlet -f slant Mr. F3eLL|lolcat
+sleep 1.1
+figlet -f slant TOOLS |lolcat
+sleep 1.1
+figlet "ScriptKiddies" |lolcat
+sleep 1.1
+clear
+exit
+fi
